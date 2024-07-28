@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: youtube-clone-app
-        image: cyberdesk07/youtube:36
+        image: cyberdesk07/youtube:37
         imagePullPolicy: "Always"
         ports:
         - containerPort: 3000
